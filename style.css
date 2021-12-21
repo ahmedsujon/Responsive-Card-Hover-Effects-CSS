@@ -109,3 +109,27 @@ body {
   text-decoration: none;
   font-weight: 700;
 }
+
+/* media quiery */
+@media (max-width: 991px) {
+  .card {
+    max-width: 350px;
+    align-items: flex-start;
+  }
+
+  .card:hover {
+    height: 600px;
+  }
+  
+  .card .content {
+    width: 100%;
+    left: 0;
+    padding: 40px;
+  }
+
+  .card:hover img {
+    top: 70%;
+    left: 50%;
+    height: 300px;
+  }
+}
